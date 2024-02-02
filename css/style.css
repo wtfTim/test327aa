@@ -1,0 +1,719 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "expa";
+    scroll-behavior: smooth;
+    font-family: "Jura";
+}
+
+@font-face {
+    font-family: "Jura";
+    src: url(/fonts/Jura.ttf);
+}
+
+.section {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.head_grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head_poisk {
+    display: flex;
+    border: 1px solid black;
+    width: 170px;
+    height: 34px;
+    font-size: 20px;
+}
+
+.head_poisk p {
+    margin-top: 3px;
+    margin-left: 7px;
+}
+
+.head_poisk img {
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.head_navig a {
+    font-size: 20px;
+    color: black;
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65);
+}
+
+.head_navig {
+    display: flex;
+    gap: 30px;
+}
+
+.head_head {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.head_grid_osn {
+    display: flex;
+    gap: 50px;
+}
+
+/* ------------------БАННЕР-------------------- */
+
+.banner {
+    background-image: url(../media/баннер.png);
+    background-size: cover;
+    height: 700px;
+}
+
+.banner_text {
+    color: white;
+    width: 387px;
+    padding-top: 200px;
+}
+
+.banner_text h1 {
+    font-size: 100px;
+}
+
+.banner_text p {
+    font-size: 25px;
+}
+
+.banner_text button {
+    margin-top: 20px;
+    width: 175px;
+    height: 40px;
+    font-size: 25px;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/* ------------------ПОПУЛЯРНЫЕ ТОВАРЫ-------------------- */
+
+.popular {
+    padding-top: 70px;
+}
+
+.popular_text h1 {
+    font-size: 50px;
+    text-shadow: 0px 5px 7px #95411B;
+    font-weight: 700;
+    color: #95411B;
+}
+
+.popular_block {
+    width: 370px;
+    height: 435px;
+    border: 3px solid rgba(149, 65, 27, 0.69);
+    box-shadow: 0px 0px 20px 0px rgba(51, 51, 51, 0.93);
+    border-radius: 28px;
+}
+
+.popular_grid {
+    display: flex;
+    margin-left: 80px;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.popular_opis p {
+    color: #95411B;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.popular_razmer p {
+    width: 60px;
+    height: 35px;
+    border: 1px solid #95411B;
+    font-size: 20px;
+
+}
+
+.popular_razmer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.qwe p {
+    background-color: #95411B;
+    color: white;
+}
+
+.popular_price p {
+    color: #95411B;
+    font-size: 20px;
+}
+
+.popular_price button {
+    font-size: 20px;
+}
+
+.popular_button button {
+    width: 152px;
+    height: 35px;
+    border: 1px solid #95421b;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.popular_grid_btn {
+    display: flex;
+    margin-left: 50px;
+    gap: 50px;
+    padding-top: 20px;
+}
+
+.popular_grid_block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+/* ------------------карточки-------------------- */
+
+.categories {
+    margin-top: 117px;
+    width: 1090px;
+    height: 838px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.categories .img1 {
+    width: 568px;
+    height: 728px;
+    margin-top: 55px;
+}
+
+.categories .img1:hover,
+.img2:hover,
+.img3:hover {
+    cursor: pointer;
+}
+
+.categories .img2 {
+    width: 417px;
+    height: 518px;
+    margin-left: 38px;
+}
+
+.categories .img3 {
+    width: 335px;
+    height: 284px;
+
+}
+
+.categories div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------футер-------------------- */
+
+footer {
+    background-color: #333333;
+    padding-top: 48px;
+    padding-bottom: 28px;
+}
+
+.footerch1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 147px;
+}
+
+.footerch1 nav a {
+    color: #F3F3F3;
+
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.footerch2 h3 {
+    color: #F3F3F3;
+
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65);
+
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footerch2 p {
+    color: #F3F3F3;
+
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 4px;
+}
+
+.connect__footerchs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 94px;
+}
+
+.connect__icons__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 294px;
+}
+
+/* --------------------------------------------------------------------------
+--------------------КАТАЛОГ ТОВАРОВ---------------------------------------
+-------------------------------------------------------------------------- */
+.line {
+    background: #53377A;
+    width: 100%;
+    height: 2px;
+    filter: blur(2px);
+}
+
+.krosh p {
+    font-size: 20px;
+    color: rgba(149, 65, 27, 0.73);
+    margin-top: 100px;
+}
+
+.katal_text {
+    font-size: 50px;
+    color: #95411B;
+    text-shadow: 0px 5px 7px rgba(149, 65, 27, 0.50);
+    font-weight: 700;
+}
+
+.head_poisk2 {
+    display: flex;
+    border: 1px solid rgba(149, 65, 27, 0.73);
+    width: 300px;
+    height: 34px;
+    font-size: 20px;
+    color: rgba(149, 65, 27, 0.73);
+    align-items: center;
+    margin-top: 15px;
+}
+
+.head_poisk2 img {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+    margin-left: 8px;
+    margin-right: 10px;
+}
+.head_poisk2 p {
+    margin-bottom: 2px;
+}
+
+.head_sort p {
+    font-size: 20px;
+    color: #95411B;
+}
+
+.head_grid2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.katalog_obj {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.katalog {
+    margin-bottom: 50px;
+}
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    text-decoration: none; 
+    list-style: none; 
+    box-sizing: border-box; 
+} 
+ 
+.content { 
+    max-width: 1200px; 
+    margin: 0 auto; 
+} 
+ 
+@font-face { 
+    font-family: 'Jura'; 
+    src: url(../fonts/Jura.ttf); 
+    font-weight: 300; 
+} 
+ 
+@font-face { 
+    font-family: 'Jura'; 
+    src: url(../fonts/Jura.ttf); 
+    font-weight: 400; 
+} 
+ 
+@font-face { 
+    font-family: 'Jura'; 
+    src: url(../fonts/Jura.ttf); 
+    font-weight: 500; 
+} 
+ 
+@font-face { 
+    font-family: 'Jura'; 
+    src: url(../fonts/Jura.ttf); 
+    font-weight: 700; 
+} 
+ 
+ 
+/* Шапка */ 
+ 
+/* Шапка */ 
+header { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 147px; 
+} 
+ 
+nav { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+} 
+ 
+nav a { 
+    color: #333; 
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65); 
+    font-family: Jura; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-weight: 500; 
+    line-height: normal; 
+} 
+ 
+.connect__input__icons { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px; 
+} 
+ 
+.connect__nav__inpico { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 167px; 
+    height: 80px; 
+} 
+ 
+.input__header { 
+    border: 1px solid #333333; 
+    height: 34px; 
+    color: rgba(51, 51, 51, 0.73); 
+    font-family: 'Jura'; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-weight: 500; 
+    line-height: normal; 
+    position: absolute; 
+    width: 170px; 
+    padding-left: 44px; 
+ 
+} 
+ 
+.input__svg { 
+    top: 7px; 
+    left: 9px; 
+    position: relative; 
+} 
+ 
+.input__header2 { 
+    width: 270px; 
+    height: auto; 
+} 
+ 
+.img__header { 
+    width: 28px; 
+    height: 34px; 
+ 
+ 
+} 
+ 
+.img__header__div { 
+    margin-top: 9px; 
+    margin-bottom: 3px; 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    gap: 15px; 
+    height: 42px; 
+    margin: auto; 
+} 
+ 
+ 
+.xleb_kroski a { 
+    color: rgba(149, 65, 27, 0.73); 
+    font-size: 20px; 
+    font-family: Jura; 
+    font-weight: 500; 
+} 
+ 
+.xleb_kroski { 
+    padding-top: 80px; 
+} 
+ 
+.str h2 { 
+    color: #95411B; 
+    text-shadow: 0px 5px 7px #95411B; 
+    font-family: Jura; 
+    font-size: 40px; 
+    font-style: normal; 
+    font-weight: 700; 
+    line-height: normal; 
+ 
+} 
+ 
+.kvadr { 
+    width: 1030px; 
+    border: 1px #95411B solid; 
+    padding: 20px; 
+    margin-left: 100px; 
+    margin-top: 50px; 
+    position: relative; 
+} 
+.kvadr_icon { 
+    position: absolute; 
+    width: 40px; 
+    top: 15px; 
+    right: 15px; 
+} 
+ 
+ 
+ 
+.kv_plztie img { 
+    width: 200px; 
+} 
+ 
+ 
+.btns__sizes .button1__popular__tovari { 
+    width: 60px; 
+    height: 35px; 
+    background-color: transparent; 
+    color: #95411B; 
+    border: 1px solid #95411B; 
+    font-family: Jura; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-weight: 500; 
+    line-height: normal; 
+    transition: .3s; 
+} 
+ 
+.btns__sizes .button2__popular__tovari { 
+    background: #95411B; 
+    width: 60px; 
+    height: 35px; 
+    color: #F3F3F3; 
+    border: none; 
+    font-family: Jura; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-weight: 500; 
+    line-height: normal; 
+ 
+} 
+ 
+.btns__sizes .button1__popular__tovari:hover { 
+    background: #95411B; 
+    color: #F3F3F3; 
+    cursor: pointer; 
+} 
+ 
+.btns__sizes .button2__popular__tovari:hover { 
+    background: #95411B; 
+    color: #F3F3F3; 
+    cursor: pointer; 
+} 
+ 
+.kvadr { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    margin-bottom: 30px; 
+    gap: 60px; 
+} 
+ 
+.kvadr h3 { 
+    color: #95411B; 
+    font-size: 40px; 
+    font-family: Jura; 
+    font-weight: 700; 
+} 
+ 
+.artic { 
+    color: rgba(149, 65, 27, 0.73); 
+    font-size: 20px; 
+    font-family: Jura; 
+    font-weight: 500; 
+    word-wrap: break-word; 
+    padding-bottom: 20px; 
+} 
+ 
+.razm { 
+    color: rgba(149, 65, 27, 0.73); 
+    font-size: 20px; 
+    font-family: Jura; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    padding-bottom: 10px; 
+} 
+ 
+.kolvo { 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+} 
+ 
+.plus { 
+    padding: 5px; 
+    border: 1px #95411B solid; 
+    width: 42px; 
+    height: 35px; 
+    color: #95411B; 
+    background:transparent; 
+} 
+ 
+h4 { 
+    color: #95411B; 
+} 
+ 
+.minus { 
+    padding: 5px; 
+    border: 1px #95411B solid; 
+    width: 42px; 
+    height: 35px; 
+    background-color: #95411B; 
+    color: white; 
+} 
+ 
+.kor { 
+    border: 1px #95411B solid; 
+    width: 342px; 
+    height: 48px; 
+    color: #95411B; 
+    font-family: Jura; 
+    font-size: 25px; 
+    font-style: normal; 
+    font-weight: 500; 
+    background: transparent; 
+   margin-bottom: 20px; 
+} 
+ 
+.kv_txt { 
+    color: #95411B; 
+    text-align: justify; 
+    font-family: Jura; 
+    font-size: 25px; 
+    font-style: normal; 
+    font-weight: 500; 
+    line-height: normal; 
+    width: 400px; 
+} 
+ 
+footer { 
+    background-color: #333333; 
+    padding-top: 48px; 
+    padding-bottom: 28px; 
+} 
+ 
+.footerch1 { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 147px; 
+} 
+ 
+.footerch1 nav a { 
+    color: #F3F3F3; 
+ 
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65); 
+    font-family: Jura; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-weight: 500; 
+    line-height: normal; 
+} 
+ 
+.footerch2 h3 { 
+    color: #F3F3F3; 
+ 
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65); 
+    font-family: Jura; 
+    font-size: 25px; 
+    font-style: normal; 
+    font-weight: 700; 
+    line-height: normal; 
+} 
+ 
+.footerch2 p { 
+    color: #F3F3F3; 
+ 
+    text-shadow: 3px 4px 7px rgba(83, 55, 122, 0.65); 
+    font-family: Jura; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-weight: 500; 
+    line-height: normal; 
+    margin-top: 4px; 
+} 
+ 
+.connect__footerchs { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 94px; 
+} 
+ 
+.connect__icons__arrow { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 294px; 
+}
